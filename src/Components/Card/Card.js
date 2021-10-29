@@ -34,7 +34,7 @@ const Card = (props) => {
                     <p><button className="button-as-link" onClick={showCardDetails}>{buttonText}</button></p>
                     <div className="details" style={detailStyle}>
                         <p>{props.overview}</p>
-                        <p>Released on {props.release_date}</p>
+                        <p>Released on {props.release}</p>
                     </div>
                 </div>
             </div>
