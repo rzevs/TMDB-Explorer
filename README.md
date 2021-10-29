@@ -15,5 +15,7 @@ Write a title in the search bar, then click on any movie poster to view informat
 ## Credits
 
 Back end: Parankay and David
+
 Front end: Marijan and Ruiqi
+
 Development Operations: Siddharth
