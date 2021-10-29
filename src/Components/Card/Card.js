@@ -1,4 +1,11 @@
+// import CardDetails from "../CardDetails";
+
 const Card = (props) => {
+
+    function showCardDetails() {
+        // fill this
+    };
+
     return (
         <div className="col s12 m6 l3">
             <div className="card">
@@ -8,7 +15,8 @@ const Card = (props) => {
                     }
                 </div>
                 <div className = "card-content">
-                    <p><a href="a">See More</a></p>
+                    <h5 className="movie-title">{props.title}</h5>
+                    <p><a href="" onClick={showCardDetails}>See More</a></p>
                 </div>
             </div>
         </div>
