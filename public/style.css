@@ -11,3 +11,17 @@
 dt::after {
     content: ": ";
 }
+
+.movie-title {
+    font-size: 20px;
+}
+
+.col {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+
+img {
+    width: 100%;
+}
