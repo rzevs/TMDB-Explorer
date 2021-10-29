@@ -1,9 +1,24 @@
-// import CardDetails from "../CardDetails";
+import React, { useState } from 'react';
 
 const Card = (props) => {
 
+    const [buttonText, setButtonText] = useState('See More');
+
+    const [displayStyle, setDisplayStyle] = useState('none');
+
+    let detailStyle = {
+        display: displayStyle
+    };
+
     function showCardDetails() {
-        // fill this
+        if (displayStyle === 'none') {
+            setDisplayStyle('block');
+            setButtonText('See Less');
+        }
+        else {
+            setDisplayStyle('none');
+            setButtonText('See More');
+        }
     };
 
     return (
@@ -16,7 +31,11 @@ const Card = (props) => {
                 </div>
                 <div className = "card-content">
                     <h5 className="movie-title">{props.title}</h5>
-                    <p><a href="" onClick={showCardDetails}>See More</a></p>
+                    <p><button className="button-as-link" onClick={showCardDetails}>{buttonText}</button></p>
+                    <div className="details" style={detailStyle}>
+                        <p>{props.overview}</p>
+                        <p>Released on {props.release_date}</p>
+                    </div>
                 </div>
             </div>
         </div>
