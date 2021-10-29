@@ -1,0 +1,13 @@
+.button-as-link {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: var(--normal-font-fam);
+    font-size: 1em;
+}
+
+dt::after {
+    content: ": ";
+}
