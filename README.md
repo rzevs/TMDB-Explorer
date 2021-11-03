@@ -1,5 +1,7 @@
 # Movie Database Explorer
 
+**This repo is in archive only mode. Please view the [up-to-date branch](https://github.com/siddharth-vagavolu/TMDB-Explorer) instead.
+
 The Movie DB Explorer provides information about a movie based on a provided title. Its purpose is to help people decide whether they would be interested in that work, and to provide some generally interesting facts.
 
 ## Installation
@@ -14,7 +16,7 @@ Write a title in the search bar, then click on any movie poster to view informat
 
 ## Credits
 
-Back end: Parankay and David
+Back end: Paranjay and David
 
 Front end: Marijan and Ruiqi
 
